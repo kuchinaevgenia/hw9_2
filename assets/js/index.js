@@ -17,7 +17,7 @@ try {
     console.log("TypeError handling");
   } else if (err instanceof RangeError) {
     console.log("RangeError handling");
-  } else if (err instanceof Error) {
+  } else {
     console.log("Error handling");
   }
 }
